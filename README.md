@@ -1,82 +1,56 @@
-🧮 Calculadora de Índice de Masa Corporal (IMC)
-Esta es una aplicación web desarrollada con React que permite calcular el Índice de Masa Corporal (IMC) , mostrando resultados basados en la altura y el peso del usuario. Además, incluye una tabla orientadora de clasificación del IMC para ayudar a interpretar los valores.
+# 🧮 Calculadora de Índice de Masa Corporal (IMC)
 
-📸 Vista previa
+Esta es una aplicación web desarrollada con React que te permite calcular fácilmente tu Índice de Masa Corporal (IMC) a partir de tu altura y peso. Además, te proporciona una tabla clara con la clasificación del IMC para que puedas interpretar tus resultados de manera sencilla.
 
+📸 **Vista previa**
 
-(Reemplaza esta imagen con una captura real de tu aplicación si lo deseas) 
+[![Captura de pantalla de la calculadora de IMC](https://play.google.com/store/apps/details?id=com.tools.screenshot&hl=es_EC)](https://play.google.com/store/apps/details?id=com.cy8018.livetv&hl=es_AR)
+*(Reemplaza la URL de la imagen con una captura real de tu aplicación para darle un toque visual. Si tienes la aplicación desplegada, también puedes enlazar la imagen a la URL en vivo).*
 
-✅ Características
-Cálculo automático del IMC usando altura y peso.
-Clasificación del resultado según estándares médicos:
-Bajo peso
-Peso saludable
-Sobrepeso
-Obesidad
-Tabla informativa con rangos del IMC.
-Campos adicionales como:
-Edad
-Sexo
-Nivel de actividad física (preparado para ampliar funcionalidad )
-🛠️ Tecnologías utilizadas
-💻 React.js
-🎨 CSS puro (estilos personalizados)
-📦 Node.js + npm
-▶️ Cómo ejecutar el proyecto
-1. Clona este repositorio
-bash
+✅ **Características principales**
 
+* **Cálculo automático del IMC:** Ingresa tu altura y peso, y el IMC se calculará al instante.
+* **Clasificación intuitiva:** El resultado del IMC se clasifica automáticamente según los estándares médicos en:
+    * Bajo peso
+    * Peso saludable
+    * Sobrepeso
+    * Obesidad
+* **Tabla de referencia del IMC:** Una tabla informativa integrada te muestra los rangos del IMC y sus correspondientes clasificaciones.
+* **Campos adicionales (preparados para el futuro):**
+    * Edad
+    * Sexo
+    * Nivel de actividad física *(Esta funcionalidad está lista para ser implementada en futuras versiones).*
 
-1
-2
-git clone https://github.com/KevinMec/BMICALCULATOR-.git 
-cd BMICALCULATOR-
-2. Instala las dependencias
-bash
+🛠️ **Tecnologías utilizadas**
 
+* 💻 **Frontend:** [React.js](https://react.dev/)
+* 🎨 **Estilos:** CSS puro (con estilos personalizados)
+* 📦 **Entorno de desarrollo:** [Node.js](https://nodejs.org/) + [npm](https://www.npmjs.com/)
 
-1
-npm install
-3. Ejecuta la aplicación en modo desarrollo
-bash
+▶️ **¿Cómo ejecutar el proyecto localmente?**
 
+Sigue estos sencillos pasos para tener la calculadora corriendo en tu máquina:
 
-1
-npm start
-La aplicación se abrirá automáticamente en http://localhost:3000 .
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/KevinMec/BMICALCULATOR-.git](https://github.com/KevinMec/BMICALCULATOR-.git)
+    cd BMICALCULATOR-
+    ```
 
-📦 Compilación para producción
-Para generar una versión optimizada lista para desplegar:
+2.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
 
-bash
+3.  **Inicia la aplicación en modo desarrollo:**
+    ```bash
+    npm start
+    ```
+    Tu navegador se abrirá automáticamente en `http://localhost:3000`. ¡Empieza a calcular tu IMC!
 
+📦 **Compilación para producción**
 
-1
+Para generar una versión optimizada de la aplicación lista para su despliegue:
+
+```bash
 npm run build
-Los archivos compilados estarán en la carpeta build/.
-
-🌐 Despliegue en GitHub Pages (Opcional)
-Si has configurado gh-pages, puedes publicarlo en línea con:
-
-bash
-
-
-1
-npm run deploy
-Y accederás desde:
-👉 https://KevinMec.github.io/BMICALCULATOR-/
-
-🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Si quieres mejorar esta calculadora:
-
-Añade cálculo de gasto calórico diario con base en el IMC y nivel de actividad
-Añade gráficos visuales
-Soporte móvil mejorado
-Haz un fork , crea una rama (feature/nueva-funcion) y abre un Pull Request .
-
-📄 Licencia
-Usalo como quieras :D
-
-👥 Autor
-👤 Kevin Méndez
-GitHub: KevinMec
