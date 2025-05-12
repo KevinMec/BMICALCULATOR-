@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+🧮 Calculadora de Índice de Masa Corporal (IMC)
+Esta es una aplicación web desarrollada con React que permite calcular el Índice de Masa Corporal (IMC) , mostrando resultados basados en la altura y el peso del usuario. Además, incluye una tabla orientadora de clasificación del IMC para ayudar a interpretar los valores.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📸 Vista previa
 
-## Available Scripts
 
-In the project directory, you can run:
+(Reemplaza esta imagen con una captura real de tu aplicación si lo deseas) 
 
-### `npm start`
+✅ Características
+Cálculo automático del IMC usando altura y peso.
+Clasificación del resultado según estándares médicos:
+Bajo peso
+Peso saludable
+Sobrepeso
+Obesidad
+Tabla informativa con rangos del IMC.
+Campos adicionales como:
+Edad
+Sexo
+Nivel de actividad física (preparado para ampliar funcionalidad )
+🛠️ Tecnologías utilizadas
+💻 React.js
+🎨 CSS puro (estilos personalizados)
+📦 Node.js + npm
+▶️ Cómo ejecutar el proyecto
+1. Clona este repositorio
+bash
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1
+2
+git clone https://github.com/KevinMec/BMICALCULATOR-.git 
+cd BMICALCULATOR-
+2. Instala las dependencias
+bash
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1
+npm install
+3. Ejecuta la aplicación en modo desarrollo
+bash
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1
+npm start
+La aplicación se abrirá automáticamente en http://localhost:3000 .
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📦 Compilación para producción
+Para generar una versión optimizada lista para desplegar:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1
+npm run build
+Los archivos compilados estarán en la carpeta build/.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🌐 Despliegue en GitHub Pages (Opcional)
+Si has configurado gh-pages, puedes publicarlo en línea con:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+1
+npm run deploy
+Y accederás desde:
+👉 https://KevinMec.github.io/BMICALCULATOR-/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si quieres mejorar esta calculadora:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Añade cálculo de gasto calórico diario con base en el IMC y nivel de actividad
+Añade gráficos visuales
+Soporte móvil mejorado
+Haz un fork , crea una rama (feature/nueva-funcion) y abre un Pull Request .
 
-### Code Splitting
+📄 Licencia
+Usalo como quieras :D
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👥 Autor
+👤 Kevin Méndez
+GitHub: KevinMec
