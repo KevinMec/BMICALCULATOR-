@@ -2,10 +2,6 @@
 
 Esta es una aplicación web desarrollada con React que te permite calcular fácilmente tu Índice de Masa Corporal (IMC) a partir de tu altura y peso. Además, te proporciona una tabla clara con la clasificación del IMC para que puedas interpretar tus resultados de manera sencilla.
 
-📸 **Vista previa**
-
-[![Captura de pantalla de la calculadora de IMC](https://play.google.com/store/apps/details?id=com.tools.screenshot&hl=es_EC)](https://play.google.com/store/apps/details?id=com.cy8018.livetv&hl=es_AR)
-*(Reemplaza la URL de la imagen con una captura real de tu aplicación para darle un toque visual. Si tienes la aplicación desplegada, también puedes enlazar la imagen a la URL en vivo).*
 
 ✅ **Características principales**
 
